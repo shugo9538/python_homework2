@@ -6,7 +6,7 @@
         {% block title %}Bookmark List{% endblock %}
     </head>
     <body>
-        {% block content %}
+    {% block content %}
         <div class="btn-group">
             <a href="{% url 'add' %}" class="btn btn-info">Add Bookmark</a>
         </div>
@@ -60,5 +60,6 @@
                 </ul>
             {% endif %}
         {% endblock %}
+    {% endblock %}
     </body>
 </html>
